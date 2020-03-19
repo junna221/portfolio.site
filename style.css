@@ -1,0 +1,586 @@
+body {
+  background-image: url(image/would.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+html,body,div,span,iframe,h1,h2,h3,h4,h5,p,a,img,ul,li,table,tr,th,td,tbody,footer,header,main,nav,section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
+/*------------------------------header------------------------------*/
+
+header {
+  height: 100vh;
+}
+
+#top {
+  height: 65px;
+  position: relative;
+  background-color: rgba(29, 76, 204, 0.52);
+}
+
+.list  {
+  list-style: none;
+  position: absolute;
+  top: 20px;
+  right: 57px;
+  position: absolute;
+}
+
+.list li {
+  float: left;
+  margin: 0 35px;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+}
+
+.list i {
+  display: none;
+}
+
+#show {
+  display: none;
+}
+
+.logo {
+  width: 125px;
+  height: 35px;
+  padding-top: 15px;
+  padding-left: 64px;
+}
+
+.logo img {
+  height: 33px;
+}
+
+.letter{
+ height: 100%;
+  
+}
+
+.lead{
+  color: white;
+  position: absolute;
+  font-size: 1.9em;
+  letter-spacing: 0.1em;
+  top: 50%;
+  transform : translateY(-50%) translateX(-50%);
+  left: 50%
+}
+
+.letter a {
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 50%;
+  transform : translateX(-50%);
+  top: 85%;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.arrow{
+  width: 30px;
+  height: 30px;
+  border: 5px solid;
+  border-color:  transparent transparent #565656 #565656;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 90%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/*------------------------------main------------------------------*/
+
+main {
+  background-color: darkgray;
+  width: 100%;
+  display: inline-block;
+}
+#sentence {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+#sentence p {
+  line-height: 1.9;
+  color: white;
+  letter-spacing: 0.4px;
+  width: 390px;
+  
+}
+
+#sentence img {
+  height: 70px;
+  width: 240px;
+  
+}
+
+.photo {
+  width: 100%;
+}
+
+.photo ul {
+  list-style: none;
+}
+
+.photo img {
+  width:calc(100%/8);
+  float: left;
+}
+/*------------------------------works------------------------------*/
+
+#works {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding-bottom: 100px;
+}
+
+.movie h2 {
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  padding-top: 115px;
+  padding-bottom: 35px;
+}
+
+.slider img {
+ width: 271px;
+ height: 149px;
+ cursor: pointer;
+}
+
+.slider img:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translatey(-0.3875em);
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  margin: auto;
+}
+
+.slider p {
+  font-size: 0.6em;
+  cursor: pointer;
+}
+
+.slider b {
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.slider, .movie {
+  padding-bottom: 30px;
+}
+/*------------------------------aboutus------------------------------*/
+
+#aboutus {
+  background-color: #747171;
+  color: white;
+  text-align: center;
+}
+
+.person h2{
+  padding-top: 112px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid ;
+  display: inline-block;
+  width: 394px;
+  font-size: 1.2em;
+}
+
+.name_1 {
+  padding-top: 45px;
+  padding-bottom: 24px;
+  font-weight: 900;
+}
+
+.name_2 {
+  font-size: 0.8em;
+  line-height: 1.9;
+  padding-bottom: 38px;
+}
+
+.tokyo {
+  font-size: 0.8em;
+  line-height: 1.9;
+  padding-bottom: 38px;
+}
+
+.fukuoka {
+  font-size: 0.8em;
+  line-height: 1.9;
+  padding-bottom: 121px;
+}
+/*------------------------------contact------------------------------*/
+
+#contact {
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 112px;
+  padding-bottom: 80px;
+}
+
+.form {
+  display: table;
+  width: 537px;
+  margin: 0 auto;
+}
+
+.form, input {
+  width: 537px;
+  height: 45px;
+}
+
+.form dt {
+  padding: 5px 0 5px 40px;
+  font-size: 0.8em;
+}
+
+.form textarea {
+  width: 537px;
+  height: 240px;
+}
+
+button {
+  background-color: #747171;
+  color: white;
+  width: 132px;
+  height: 36px;
+  font-size: 0.9em;
+  transition: 0.7s;
+}
+
+button:hover {
+  background-color: rgba(116, 113, 113, 0.7);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 200px
+}
+
+
+
+/*------------------------------footer------------------------------*/
+
+footer {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+footer img {
+  padding-top: 55px;
+  padding-bottom: 70px;
+  width: 190px;
+  height: 55px;
+}
+
+footer small {
+  display: block;
+  font-size: 0.65em;
+  padding-bottom: 64px;
+}
+
+.privacy p:hover {
+  color: rgba(255, 255, 255, 0.71);
+}
+
+.privacy p {
+  color: white;
+  background-color: rgba(29, 76, 204);
+  text-decoration: none;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacy a {
+  text-decoration: none;
+}
+/*------------------------------policy_top------------------------------*/
+
+.policy_top {
+  background-color: #747171;
+  color: white;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 110px;
+}
+
+.policy_top h1 {
+  padding-bottom: 17px;
+}
+
+/*------------------------------policy_main------------------------------*/
+
+.policy_main {
+  background-color: white;
+  width: 100%;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.policy_main h2 {
+  font-size: 0.9em;
+  width: 896px;
+  margin: auto;
+  padding-bottom: 10px
+}
+
+.policy_main p {
+  font-size: 0.85em;
+  width: 896px;
+  margin: 0 auto;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+
+/*------------------------------max-width:600px------------------------------*/
+
+@media (min-width:0px) and (max-width:700px) {
+  
+/*------------------------------header------------------------------*/
+  
+  html {
+    overflow:auto;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  header {
+    z-index: 0;
+    
+  }
+  
+  .logo{
+    padding-left: 5vw;
+    
+  }
+  
+  .lead{
+   width: 100%;
+   text-align: center;
+   font-size: 6.8vw;
+}
+  
+  .list  {
+  display: none;
+  }
+  
+  .list-menu-open {
+    background-color: rgba(29, 76, 204, 1);
+    float: right;
+    width: 37vw;
+    height: 100vh;
+    z-index: 4;
+  }
+  
+  .list-menu-open li {
+    padding-left: 7vw;
+    list-style: none;
+    padding-top: 10vw;
+  }
+  
+  .list-menu-open a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .list-menu-open i {
+    padding-left: 25vw;
+    padding-top:  2vw;
+    font-size: 1.5em;
+    color: white
+  }
+  
+  #show {
+   display: block;
+   position: absolute;
+   top: 4.5vw;
+   right: 7vw;
+   font-size: 6vw;
+   color: white;
+   cursor: pointer;
+  }
+  
+  .arrow {
+  width: 15px;
+  height: 15px;
+  border: 3px solid;
+  border-color:  transparent transparent #565656 #565656;
+  top: 207vw;
+  }
+  /*------------------------------main------------------------------*/
+  #sentence {
+    display: block;
+    text-align: center;
+  }
+  
+  #sentence p {
+    line-height: normal;
+    width: 70vw;
+    margin: auto;
+    font-size: 3vw;
+    margin-top: -7vw
+  }
+  
+  #sentence img {
+    width: 35vw;
+    height: 10vw;
+    padding-top: 5vw;
+    margin-bottom: -9vw;
+  }
+  
+  .photo img {
+  width:calc(100%/4);
+  float: left;
+}
+  
+ /*------------------------------works------------------------------*/ 
+  
+  #works {
+    padding-bottom: 0vw;
+  }
+  
+  .movie h2 {
+    padding-top: 10vw;
+    padding-bottom: 0vw;
+  }
+ 
+.slider{
+    padding-top:
+    margin: 100px auto;
+    width: 79%;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+}
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+  /*------------------------------aboutus------------------------------*/
+  .person h2 {
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    width: 40vw;
+  }
+  
+  .name_1 {
+  padding-top: 45px;
+  padding-bottom: 1vw;
+}
+
+.name_2 {
+  font-size: 0.4em;
+  line-height: 1.9;
+  padding-bottom: 5vw;
+}
+
+.tokyo {
+  font-size: 0.4em;
+  padding-bottom: 5vw;
+}
+
+.fukuoka {
+  font-size: 0.4em;
+  padding-bottom: 10vw;
+}
+  
+  /*------------------------------contact------------------------------*/
+
+  #contact h2 {
+  font-size: 1.7em;
+  padding-top: 9vw;
+  padding-bottom: 2vw;
+}
+
+.form {
+  display: table;
+  width: 537px;
+  margin: 0 auto;
+}
+
+  .form dd {
+    margin: 0;
+  }  
+
+.form, input {
+  width: 60vw;
+  height: 3vw;
+}
+
+.form dt {
+  padding: 5px 0 5px;
+  font-size: 0.5em;
+}
+
+.form textarea {
+  width: 60vw;
+  height: 25vw;
+}
+
+button {
+  width: 25vw;
+  height: 7vw;
+  font-size: 0.5em;
+}
+
+.button {
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 15vw;
+}
+
+/*------------------------------footer------------------------------*/
+  
+footer img {
+  padding-top: 6vw;
+  padding-bottom: 5vw;
+  width: 25vw;
+  height: 8vw;
+}
+
+footer small {
+  padding-bottom: 5vw;
+}
+
+.privacy p {
+    font-size: 0.7em;
+  }
+  
+  
+
