@@ -188,46 +188,39 @@ main {
 .slider, .movie {
   padding-bottom: 30px;
 }
-/*------------------------------aboutus------------------------------*/
+/*------------------------------SKILL------------------------------*/
 
 #aboutus {
   background-color: #747171;
   color: white;
+  
+}
+.person {
   text-align: center;
 }
 
 .person h2{
-  padding-top: 112px;
-  padding-bottom: 48px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: 1px solid ;
-  display: inline-block;
+  display: block;
   width: 394px;
   font-size: 1.2em;
+  margin: 0 auto;
+}
+.person ul{
+  padding-left: 0;
+  list-style: none;
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.person li {
+  text-align: left;
+  padding-bottom: 10px;
+  list-style: circle;
 }
 
-.name_1 {
-  padding-top: 45px;
-  padding-bottom: 24px;
-  font-weight: 900;
-}
-
-.name_2 {
-  font-size: 0.8em;
-  line-height: 1.9;
-  padding-bottom: 38px;
-}
-
-.tokyo {
-  font-size: 0.8em;
-  line-height: 1.9;
-  padding-bottom: 38px;
-}
-
-.fukuoka {
-  font-size: 0.8em;
-  line-height: 1.9;
-  padding-bottom: 121px;
-}
 /*------------------------------contact------------------------------*/
 
 #contact {
@@ -492,33 +485,14 @@ footer small {
 .slick-next:before {
     color: #000;
 }
-  /*------------------------------aboutus------------------------------*/
+  /*------------------------------SKILL------------------------------*/
   .person h2 {
-    padding-top: 8vw;
-    padding-bottom: 8vw;
-    width: 40vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    width: 80vw;
   }
   
-  .name_1 {
-  padding-top: 45px;
-  padding-bottom: 1vw;
-}
 
-.name_2 {
-  font-size: 0.4em;
-  line-height: 1.9;
-  padding-bottom: 5vw;
-}
-
-.tokyo {
-  font-size: 0.4em;
-  padding-bottom: 5vw;
-}
-
-.fukuoka {
-  font-size: 0.4em;
-  padding-bottom: 10vw;
-}
   
   /*------------------------------contact------------------------------*/
 
@@ -575,7 +549,8 @@ footer img {
 }
 
 footer small {
-  padding-bottom: 5vw;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
 }
 
 .privacy p {
