@@ -74,7 +74,8 @@ header {
   letter-spacing: 0.1em;
   top: 50%;
   transform : translateY(-50%) translateX(-50%);
-  left: 50%
+  left: 50%;
+  text-align: center;
 }
 
 .letter a {
@@ -122,25 +123,20 @@ main {
   width: 390px;
   
 }
-
+.T-img{
+  text-align: center;
+}
+.T-img a {
+  text-decoration: none;
+  color: #0000ff;
+}
 #sentence img {
-  height: 70px;
-  width: 240px;
-  
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
 }
 
-.photo {
-  width: 100%;
-}
 
-.photo ul {
-  list-style: none;
-}
-
-.photo img {
-  width:calc(100%/8);
-  float: left;
-}
 /*------------------------------works------------------------------*/
 
 #works {
@@ -175,14 +171,17 @@ main {
   width: 900px;
   margin: auto;
 }
-
+.box1 a{
+  text-decoration: none;
+  color: #0000ff;
+}
 .slider p {
-  font-size: 0.6em;
+  font-size: 0.9em;
   cursor: pointer;
 }
 
 .slider b {
-  font-size: 0.8em;
+  font-size: 1em;
   cursor: pointer;
 }
 
@@ -305,6 +304,7 @@ footer img {
 footer small {
   display: block;
   font-size: 0.65em;
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
@@ -363,7 +363,7 @@ footer small {
   padding-bottom: 50px;
 }
 
-/*------------------------------max-width:600px------------------------------*/
+/*------------------------------max-width:690px------------------------------*/
 
 @media (min-width:0px) and (max-width:700px) {
   
