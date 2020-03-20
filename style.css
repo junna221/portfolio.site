@@ -435,37 +435,38 @@ footer small {
   }
   
   .arrow {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   border: 3px solid;
   border-color:  transparent transparent #565656 #565656;
-  top: 207vw;
+
   }
   /*------------------------------main------------------------------*/
   #sentence {
     display: block;
     text-align: center;
+    padding-top: 60px;
+  padding-bottom: 40px;
   }
   
   #sentence p {
     line-height: normal;
     width: 70vw;
     margin: auto;
-    font-size: 3vw;
-    margin-top: -7vw
+    font-size: 3.1vw;
+    margin-top: -7vw;
   }
   
   #sentence img {
-    width: 35vw;
-    height: 10vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 55%;
     padding-top: 5vw;
     margin-bottom: -9vw;
   }
-  
-  .photo img {
-  width:calc(100%/4);
-  float: left;
-}
+  .T-img p {
+    padding-top: 20vw;
+  }
   
  /*------------------------------works------------------------------*/ 
   
@@ -479,8 +480,7 @@ footer small {
   }
  
 .slider{
-    padding-top:
-    margin: 100px auto;
+    margin: auto;
     width: 79%;
 }
 .slider img{
